@@ -41,8 +41,8 @@ public class ImageAdapter extends BaseAdapter {
         }
         ImageView imageView = (ImageView) gridView.findViewById(R.id.img);
         TextView textView = (TextView) gridView.findViewById(R.id.text);
-        imageView.setImageResource((int)contenu[position][0]);
-        textView.setText((String)contenu[position][2]);
+        imageView.setImageResource(R.drawable.sound);
+        textView.setText((String)contenu[position][1]);
         return gridView;
     }
 }
